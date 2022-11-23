@@ -11,7 +11,7 @@
 
 
 
-def fib(n, memo = {}):
+def Fibonacci(n, memo = {}):
     if n <= 2:
         return 1
     elif n in memo.keys():
